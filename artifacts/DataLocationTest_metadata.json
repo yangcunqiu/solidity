@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DataLocationTest.sol": "DataLocationTest"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DataLocationTest.sol": {
+			"keccak256": "0x9d4f2e4203a263f97b24ea8a4898c8f638cb2e37c57c4bf8437ab8e1811fd488",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a8e67c74a7faaa3324064d42648ad199b6bb012989b53dc62e318916e7749121",
+				"dweb:/ipfs/QmbKoQXJNee2d6XUEHeKcCvVgY5hv7qoQJy61nG7KyUwEA"
+			]
+		}
+	},
+	"version": 1
+}
