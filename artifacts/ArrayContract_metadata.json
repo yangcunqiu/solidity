@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newSize",
+						"type": "uint256"
+					}
+				],
+				"name": "changeFlagArraySize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "c",
+						"type": "uint256[]"
+					}
+				],
+				"name": "f",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool[2][]",
+						"name": "newPairs",
+						"type": "bool[2][]"
+					}
+				],
+				"name": "setAllFlagPairs",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "flagA",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "flagB",
+						"type": "bool"
+					}
+				],
+				"name": "setFlagPair",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ArrayTest.sol": "ArrayContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ArrayTest.sol": {
+			"keccak256": "0x650b52e0245488b3e1a777c81f28cfbda410a48f2afb59b9b3812f8593e0cfaf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd3f21f2b55a707ca4a3b4f6dd58e47f3a58f280214ef5be464a3ac75caf8026",
+				"dweb:/ipfs/QmQJEkPYFDckw3SAxpGMLWGK8YBXfcWGmgaJajnuNRrtaV"
+			]
+		}
+	},
+	"version": 1
+}
